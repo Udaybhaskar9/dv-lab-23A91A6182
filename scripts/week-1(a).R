@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 048bfa11adfbc1c3439a544cd6caf1a2e5a94d36
 library(ggplot2)
 data("VADeaths")
 
@@ -35,4 +39,8 @@ p3 <- ggplot(df_long, aes(x = DeathRate, fill = Category)) +
   theme_light()
 
 ggsave("plots/week1A_plot-3.png", plot = p3)
+<<<<<<< HEAD
 p3
+=======
+p3
+>>>>>>> 048bfa11adfbc1c3439a544cd6caf1a2e5a94d36
